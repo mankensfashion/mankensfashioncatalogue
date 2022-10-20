@@ -1,0 +1,322 @@
+
+/* ELEMENTS */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  margin-top: 40px;
+}
+
+h1 {
+  text-shadow: 0 0 12px black;
+  margin-top: 100px;
+  font-size: 5rem;
+}
+
+h2:hover {
+  /* color: hsl(20, 32.4%, 56.5%); */
+  color: hsl(0, 0.0%, 93.3%);
+}
+
+h3 {
+  text-shadow: 0 0 12px #fff;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+h6 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MARGIN LEFT AND MARGIN RIGHT AUTO */
+
+.about-us-title,
+.carousel-woman-img,
+.copyright,
+.contact-title,
+.location-title,
+.horizon,
+.map,
+.our-products-title,
+.social-media  {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+button,
+h1,
+.woman-img,
+.brand {
+  margin-left: 40px;
+}
+
+
+/* #FFF8EA COLOUR */
+body,
+footer,
+.about-us,
+.contact,
+.first-area,
+.location,
+.middle,
+#title {
+  background-color: #FFF8EA;
+}
+
+/* #fff COLOUR */
+h1,
+.about-us-title,
+.contact-title,
+.location-title,
+.our-products-title {
+  color: #fff
+}
+
+/* TEXT ALIGN */
+
+h2,
+h3,
+h6,
+.copyright,
+.visit-title {
+  text-align: center;
+}
+
+/* CLASSES */
+.about-us-title {
+  margin-top: 0;
+  margin-bottom: 100px;
+  text-shadow: 0px 0px 12px black;
+  font-size: 3rem;
+  width: 300px;
+}
+
+.brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.carousel-woman-img {
+  width: 400px;
+  height: auto;
+  border-radius: 2rem;
+  margin-bottom: 0px;
+}
+
+.contact-text {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.contact-title,
+.location-title {
+  margin-bottom: 100px;
+  text-shadow: 0px 0px 12px black;
+  font-size: 3rem;
+  width: 300px;
+}
+
+.copyright {
+  margin-top: 100px;
+  color: #000;
+}
+
+/* LANGUAGES */
+.english,
+.arabic,
+.turkish {
+  cursor: pointer;
+}
+
+.english,
+.arabic {
+  margin-left: 20px;
+}
+
+/* AREAS */
+.fourth-area,
+.second-area,
+.third-area {
+  padding: 3% 15% 7%;
+}
+
+.first-area {
+  padding: 3% 15% 0;
+}
+
+.fifth-area {
+  padding: 0 15% 3%;
+}
+
+.gallery-btn,
+.telegram-btn {
+  margin-top: 100px;
+}
+.gallery,
+.telegram {
+  text-decoration: none;
+  color: white;
+}
+
+.gallery:hover,
+.telegram:hover {
+  color: white;
+}
+
+.header-horizon {
+  border-style: none;
+  border-top-style: double;
+  border-width: 20px;
+  width: 100%;
+  /* border-color: hsl(40, 100%, 94.9%); */
+  border-color: hsl(0, 0.0%, 93.3%);
+}
+
+.horizon {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 10%;
+}
+
+.languages {
+  position: absolute;
+  top: 10px;
+}
+
+.map {
+  box-shadow: 0 0 20px #B83B5E;
+  border-radius: 1.5rem;
+  width: 45rem;
+}
+
+.our-products-title {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-shadow: 0px 0px 12px black;
+  font-size: 3rem;
+  width: 300px;
+}
+
+.position {
+  position: relative;
+}
+
+.products-carousel {
+  margin-bottom: 200px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media-logo {
+  margin-left: 100px;
+}
+
+.turkish {
+  margin-left: 40px;
+}
+
+.visit-title {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.visit-title-text {
+  animation-name: productsTitle;
+  animation-duration: 4s;
+}
+
+@keyframes productsTitle {
+  from {
+    color: black;
+  }
+
+  to {
+    color: white;
+  }
+}
+
+/* OTHER DESIGN OPTIONS for COMPUTER SIZE */
+/* .second-woman-img {
+  width: 400px;
+  height: auto;
+  margin: 170px 170px 0 170px;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 20px #B83B5E;
+  transform: rotate(15deg);
+} */
+/* .first-woman-img {
+  width: 400px;
+  height: auto;
+  top: 200px;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 20px #B83B5E;
+} */
+/* .transform {
+  transform: rotate(15deg);
+  position: absolute;
+} */
+
+/* Mobile Responsive */
+@media screen and (max-width: 1028px) {
+  button {
+    margin-top: 90px;
+  }
+
+  h6 {
+    font-size: 1.7rem;
+  }
+
+  .about-us-text {
+    font-size: 2.3rem;
+  }
+
+  .about-us-title {
+    font-size: 6rem;
+    width: 430px;
+  }
+
+  .gallery-btn {
+    margin-left: 100px;
+  }
+
+  .gallery-btn,
+  .telegram-btn {
+    font-size: 1.8rem;
+  }
+
+  .location-title,
+  .our-products-title {
+    font-size: 6rem;
+    width: 430px;
+  }
+
+  .languages {
+    top: 25px;
+    right: 60px;
+    z-index: 10;
+  }
+
+  .third-area {
+    padding: 3% 15% 13%;
+  }
+
+  /* .first-woman-img,
+  .second-woman-img {
+    display: none;
+  } */
+
+  .visit-title-text {
+    font-size: 8rem;
+  }
+
+}
